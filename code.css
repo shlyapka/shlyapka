@@ -1,0 +1,231 @@
+body { 
+	margin: 0;
+	font-family: 'URW Chancery L', cursive;
+	font-size: 40px;
+	line-height: 1.6;
+	color: #eee;
+	background-image: url("images/girl.jpg"); 
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: 100%;
+}
+
+/*table*/
+
+div.table{
+	padding-bottom: 10px;
+	padding-left: 380px;
+	padding-right:100px;
+	padding-top:500px;
+}
+
+table.tab{
+	font-size: 50px;
+	border-style: ridge;
+	border-color: red green blue yellow;
+	border-collapse: collapse;
+}
+
+/*links*/
+
+.link{
+	text-decoration: none;
+	color: #fff;
+	transition: color .2s linear;
+	margin:10px;
+}
+
+.link:hover{
+	color: purple;
+}
+
+/*audio*/
+
+audio.music{
+	width: 550px;
+	height: 40px;
+}
+
+div.nerv{
+	padding-top: 82;
+	padding-left: 300px;
+	padding-right:10px;
+	margin:5px;
+}
+
+div.header{
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+}
+
+/*panels*/
+
+.sideleft {
+    height: 90%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    background-color: #383838;
+    overflow-x: hidden;
+    padding-top: 10px;
+	outline: 4px solid #DA70D6;
+}
+
+.link1{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 10px;
+	transition: color 2.s linear;
+}
+
+.link1:hover{
+	color: purple;
+}
+
+.sideright {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #383838;
+    overflow-x: hidden;
+    padding-top: 10px;
+	outline: 4px solid #DA70D6;
+}
+
+button.sideright_op{
+	position: absolute;
+	font-size: 20px;
+	width: 198px;
+	height: 45px;
+	border-radius: 30px;
+	background: #DA70D6;
+	color: white;
+	margin-left: 2;
+	border: none;
+}
+
+div.right_links{
+	padding-top: 50;
+}
+
+.sidetop {
+    height: 10%;
+    width: 1166px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #383838;
+    overflow-x: hidden;
+    padding-top: 10px;
+	outline: 4px solid #DA70D6;
+	display: grid;
+}
+
+div.link__op__left{
+	padding-top: 20;
+}
+
+.link2{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	margin-left: 10px;
+	transition: color 2.s linear;
+}
+
+.link2:hover{
+	color: purple;
+}
+
+form {
+	position: fixed;
+	display: flex;
+	padding-top: 6;
+	width:600px;
+	padding-left: 10;
+}
+input{
+	padding:4px 5px;
+	border:0;
+	font-size:20px;
+}
+
+.search {
+	width: 100%;
+	margin: 5;
+	border-radius: 15px;
+	background-color: #DA70D6;
+}
+
+button.find{
+	height: 38px;
+	border: none;
+	background: #DA70D6;
+	color: #f2f2f2;
+	font-size: 20px;
+	border-radius: 25px;
+	position: relative;
+	box-sizing: border-box;
+	transition: all 500ms ease;
+}
+
+button.find:hover {
+	background: #f2f2f2;
+	color: #DA70D6;
+	box-shadow: inset 0 0 0 2px #DA70D6;
+}
+
+div.wrapper{
+	position:relative;
+	display: flex;
+	margin-left: 900;
+	margin-bottom: 10;
+	height: 50;
+	width: 200;
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	border-radius: 15px;
+	animation: animate 1.5s linear infinite;
+}
+
+.wrapper .display,
+.wrapper .span {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.display{
+	z-index: 999;
+	height: 40;
+	width: 190;
+	background: #1b1b1b;
+	border-radius: 15px;
+	text-align: center;
+}
+
+.display #time{
+	line-height: 40px;
+	color: white;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate{
+	100%{
+		filter: hue-rotate(360deg);
+	}
+}
