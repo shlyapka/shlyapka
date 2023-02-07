@@ -14,9 +14,9 @@ body {
 
 div.table{
 	padding-bottom: 10px;
-	padding-left: 380px;
+	padding-left: 470px;
 	padding-right:100px;
-	padding-top:500px;
+	padding-top:400px;
 }
 
 table.tab{
@@ -29,14 +29,85 @@ table.tab{
 /*links*/
 
 .link{
-	text-decoration: none;
-	color: #fff;
-	transition: color .2s linear;
-	margin:10px;
+	margin: 0px;
 }
 
-.link:hover{
-	color: purple;
+.l_img1{
+	width: 110px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.l_img1:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+.l_img2{
+	width: 80px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.l_img2:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+.l_img3{
+	width: 100px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.l_img3:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+.l_img4{
+	width: 80px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.l_img4:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+.l_img5{
+	width: 100px;
+	margin: 5px;
+	border-radius: 50%;
+}
+
+.l_img5:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
+}
+
+.l_img6{
+	width: 90px;
+	margin: 10px;
+	border-radius: 50%;
+}
+
+.l_img6:hover{
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: animate 1.5s linear infinite;
 }
 
 /*audio*/
