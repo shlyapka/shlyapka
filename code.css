@@ -4,10 +4,18 @@ body {
 	font-size: 40px;
 	line-height: 1.6;
 	color: #eee;
-	background-image: url("images/girl.jpg"); 
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+	z-index: 0;
 }
 
 /*table*/
@@ -33,9 +41,11 @@ table.tab{
 }
 
 .l_img1{
+	position: relative;
 	width: 110px;
 	margin: 10px;
 	border-radius: 50%;
+	z-index: 2;
 }
 
 .l_img1:hover{
@@ -49,6 +59,8 @@ table.tab{
 	width: 80px;
 	margin: 10px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 2;
 }
 
 .l_img2:hover{
@@ -62,6 +74,8 @@ table.tab{
 	width: 100px;
 	margin: 10px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 2;
 }
 
 .l_img3:hover{
@@ -75,6 +89,8 @@ table.tab{
 	width: 80px;
 	margin: 5px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 2;
 }
 
 .l_img4:hover{
@@ -88,6 +104,8 @@ table.tab{
 	width: 100px;
 	margin: 5px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 2;
 }
 
 .l_img5:hover{
@@ -101,6 +119,8 @@ table.tab{
 	width: 90px;
 	margin: 10px;
 	border-radius: 50%;
+	position: relative;
+	z-index: 2;
 }
 
 .l_img6:hover{
@@ -118,10 +138,12 @@ audio.music{
 }
 
 div.nerv{
+	position: relative;
 	padding-top: 82;
 	padding-left: 300px;
 	padding-right:10px;
 	margin:5px;
+	z-index: 2;
 }
 
 div.header{
@@ -134,7 +156,7 @@ div.header{
 
 .sideleft {
     height: 90%;
-    width: 200px;
+    width: 15%;
     position: fixed;
     z-index: 1;
     bottom: 0;
@@ -159,7 +181,7 @@ div.header{
 
 .sideright {
     height: 100%;
-    width: 200px;
+    width: 15%;
     position: fixed;
     z-index: 1;
     top: 0;
@@ -188,7 +210,7 @@ div.right_links{
 
 .sidetop {
     height: 10%;
-    width: 1166px;
+    width: 85%;
     position: fixed;
     z-index: 1;
     top: 0;
