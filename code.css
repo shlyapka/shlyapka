@@ -137,23 +137,21 @@ table.tab{
 /*audio*/
 
 audio.music{
+	position: relative;
 	width: 550px;
 	height: 40px;
+	z-index: 2;
 }
+
+
 
 div.nerv{
 	position: relative;
-	padding-top: 82;
+	bottom: 535px;
 	padding-left: 300px;
 	padding-right:10px;
 	margin:5px;
 	z-index: 2;
-}
-
-div.header{
-	position: fixed;
-	display: flex;
-	justify-content: space-between;
 }
 
 /*panels*/
