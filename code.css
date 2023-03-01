@@ -201,9 +201,11 @@ button.sideright_op{
 	height: 45px;
 	border-radius: 30px;
 	background: #DA70D6;
-	color: white;
+	color: black;
 	margin-left: 2;
 	border: none;
+	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	animation: animate 1.5s linear infinite;
 }
 
 div.right_links{
