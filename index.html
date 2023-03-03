@@ -3,11 +3,26 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="code.css">
-	<link rel="stylesheet" href="media.css" media="(max-width: 345px)">
 	<title>Home</title>
 	<link rel="website icon" type="jpg" href="images/logo1.jpg">
 </head>
 <body>
+	<div class="settings">
+        <nav class="menu">
+            <ul class="menu-button">
+                <li>
+                    <form class="pseudo-button">
+                        <img src="images/settings.png">
+                    </form>
+                    <ul class="sub-menu">
+                        <li><a href="" class="Purple">Purple</a></li>
+                        <li><a href="" class="Green">Green</a></li>
+                        <li><a href="" class="Blue">Blue</a></li>
+                        <li><a href="" class="Anime">Anime</a></li>
+                    </ul>
+                </li>
+            </ul>
+    </div>
 	<div class="table">
 		<table border="0" class="tab">
 			<tr>
@@ -50,12 +65,12 @@
 		<button class="sideright_op">Полезное для меня</button>
 			<div class="right_links">
 				<a class="link1" href="https://webmaster.alexanderklimov.ru/css/hover-button.php">Button anim</a><br>
-				<a class="link1" href="https://g.co/kgs/QHokBJ">Colors</a><br>
+				<a class="link1" href="https://htmlcolorcodes.com/">Colors</a><br>
 				<a class="link1" href="https://github.com/">GitHub</a><br>
 				<a class="link1" href="https://svgporn.com/">Logos</a><br>
 			</div>
 		</div>
-	<video autoplay muted loop id="myVideo">
+	<video autoplay muted loop class="video" id="myVideo">
 		<source src="videos/background.mp4" type="video/mp4">
 	</video>
 	<div class="nerv">
@@ -65,5 +80,6 @@
 		</audio>
 	</div>
 	<script src="time.js"></script>
+	<script src="themes.js"></script>
 </body>
 </html>

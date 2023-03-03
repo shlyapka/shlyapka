@@ -1,3 +1,7 @@
+:root{
+	--accent: #DA70D6;
+}
+
 body { 
 	margin: 0;
 	font-family: 'URW Chancery L', cursive;
@@ -7,6 +11,67 @@ body {
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
+}
+
+.settings{
+	width: 75px;
+	height: 30px;
+	display: flex;
+	position: fixed;
+	bottom: 50px;
+	right: 30px;
+	justify-content: center;
+	align-items: center;
+	z-index: 5;
+}
+
+.pseudo-button img{
+	height: 25px;
+	width: 25px;
+}
+
+.menu a{
+	text-decoration: none;
+}
+
+.menu li{
+	list-style: none;
+	color: white;
+}
+
+.menu li:hover .sub-menu{
+	display: block;
+}
+
+.sub-menu li{
+	display: flex;
+	justify-content: center;
+	background: black;
+}
+
+.sub-menu li:hover{
+	background: purple;
+}
+
+.sub-menu{
+	display: none;
+	position: absolute;
+	bottom: -10px;
+    right: 10px;
+	color: #333333;
+	text-decoration: none;
+	width: 70px;
+}
+
+.sub-menu a{
+	text-decoration: none;
+	color: var(--accent);
+	font-size: 15px;
+	margin: 0px;
+}
+
+.sub-menu a:hover{
+	color: var(--second-accent);
 }
 
 #myVideo {
@@ -156,19 +221,6 @@ div.nerv{
 
 /*panels*/
 
-.sideleft {
-    height: 90%;
-    width: 15%;
-    position: fixed;
-    z-index: 1;
-    bottom: 0;
-    left: 0;
-    background-color: #383838;
-    overflow-x: hidden;
-    padding-top: 10px;
-	outline: 4px solid #DA70D6;
-}
-
 .link1{
 	text-decoration: none;
 	color: white;
@@ -178,7 +230,7 @@ div.nerv{
 }
 
 .link1:hover{
-	color: purple;
+	color: var(--accent);
 }
 
 .sideright {
@@ -191,7 +243,7 @@ div.nerv{
     background-color: #383838;
     overflow-x: hidden;
     padding-top: 10px;
-	outline: 4px solid #DA70D6;
+	outline: 4px solid var(--accent);
 }
 
 button.sideright_op{
@@ -222,7 +274,7 @@ div.right_links{
     background-color: #383838;
     overflow-x: hidden;
     padding-top: 10px;
-	outline: 4px solid #DA70D6;
+	outline: 4px solid var(--accent);
 	display: grid;
 }
 
@@ -259,13 +311,13 @@ input{
 	width: 100%;
 	margin: 5;
 	border-radius: 15px;
-	background-color: #DA70D6;
+	background-color: var(--accent);
 }
 
 button.find{
 	height: 38px;
 	border: none;
-	background: #DA70D6;
+	background: var(--accent);
 	color: #f2f2f2;
 	font-size: 20px;
 	border-radius: 25px;
@@ -276,8 +328,8 @@ button.find{
 
 button.find:hover {
 	background: #f2f2f2;
-	color: #DA70D6;
-	box-shadow: inset 0 0 0 2px #DA70D6;
+	color: var(--accent);
+	box-shadow: inset 0 0 0 2px var(--accent);
 }
 
 div.wrapper{
