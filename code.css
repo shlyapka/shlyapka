@@ -1,5 +1,8 @@
 :root{
 	--accent: #DA70D6;
+	--time: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	--anim: animate 1.5s linear infinite;
+	--timebg: #1b1b1b;
 }
 
 body { 
@@ -253,11 +256,11 @@ button.sideright_op{
 	height: 45px;
 	border-radius: 30px;
 	background: #DA70D6;
-	color: black;
+	color: white;
 	margin-left: 2;
 	border: none;
-	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
-	animation: animate 1.5s linear infinite;
+	background: var(--time);
+	animation: var(--anim);
 }
 
 div.right_links{
@@ -339,9 +342,9 @@ div.wrapper{
 	margin-bottom: 10;
 	height: 50;
 	width: 200;
-	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	background: var(--time);
 	border-radius: 15px;
-	animation: animate 1.5s linear infinite;
+	animation: var(--anim);
 }
 
 .wrapper .display,
@@ -356,7 +359,7 @@ div.wrapper{
 	z-index: 999;
 	height: 40;
 	width: 190;
-	background: #1b1b1b;
+	background: var(--timebg);
 	border-radius: 15px;
 	text-align: center;
 }
@@ -367,10 +370,10 @@ div.wrapper{
 	font-size: 30px;
 	font-weight: 600;
 	letter-spacing: 1px;
-	background: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
+	background: var(--time);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	animation: animate 1.5s linear infinite;
+	animation: var(--anim);
 }
 
 @keyframes animate{
