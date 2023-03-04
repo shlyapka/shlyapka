@@ -14,18 +14,21 @@ function updateUI(){
 		document.body.style.setProperty("--time", "#35823E")
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
+		document.body.style.setProperty("--bg", "url(images/greenbg.png)")
 	}
 	else if (Theme == "blue") {
 		document.body.style.setProperty("--accent", "#2F386F")
 		document.body.style.setProperty("--time", "#2F386F")
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
+		document.body.style.setProperty("--bg", "url(images/bluebg.jpg)")
 	}
 	else if (Theme == "anime") {
-		document.body.style.setProperty("--accent", "gray")
-		document.body.style.setProperty("--time", "gray")
+		document.body.style.setProperty("--accent", "#FFEB6A")
+		document.body.style.setProperty("--time", "#FFEB6A")
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
+		document.body.style.setProperty("--bg", "url(images/yellowbg.jpg)")
 	}
 }
 

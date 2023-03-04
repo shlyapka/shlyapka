@@ -2,7 +2,8 @@
 	--accent: #DA70D6;
 	--time: linear-gradient(135deg, #5afaea, #f7df3e, #ea5bfc);
 	--anim: animate 1.5s linear infinite;
-	--timebg: #1b1b1b;
+	--timebg: #1b1b1b; 
+	--bg: url(images/bg.jpg);
 }
 
 body { 
@@ -11,6 +12,7 @@ body {
 	font-size: 40px;
 	line-height: 1.6;
 	color: #eee;
+	background: var(--bg);
 	background-repeat: no-repeat; 
 	background-position: center;
 	background-size: 100%;
@@ -92,7 +94,7 @@ div.table{
 	padding-bottom: 10px;
 	padding-left: 10px;
 	padding-right:0px;
-	padding-top:130px;
+	padding-top:160px;
 }
 
 table.tab{
@@ -110,7 +112,7 @@ table.tab{
 
 .l_img1{
 	position: relative;
-	width: 60px;
+	width: 55px;
 	margin: 5px;
 	border-radius: 50%;
 	z-index: 2;
@@ -124,7 +126,7 @@ table.tab{
 }
 
 .l_img2{
-	width: 60px;
+	width: 55px;
 	margin: 5px;
 	border-radius: 50%;
 	position: relative;
@@ -139,7 +141,7 @@ table.tab{
 }
 
 .l_img3{
-	width: 80px;
+	width: 70px;
 	margin: 0px;
 	padding-right: 10px;
 	border-radius: 50%;
@@ -155,8 +157,8 @@ table.tab{
 }
 
 .l_img4{
-	width: 60px;
-	margin: 5px;
+	width: 55px;
+	margin: 0px;
 	padding-right:15px;
 	border-radius: 50%;
 	position: relative;
@@ -171,10 +173,10 @@ table.tab{
 }
 
 .l_img5{
-	width: 80px;
-	margin: 0px;
-	padding-right: 10px;
+	width: 60px;
+	margin: 5px;
 	border-radius: 50%;
+	padding-right: 10px;
 	position: relative;
 	z-index: 2;
 }
@@ -187,11 +189,11 @@ table.tab{
 }
 
 .l_img6{
-	width: 70px;
-	margin: 0px;
+	width: 55px;
+	margin: 5px;
 	padding-right: 10;
-	border-radius: 50%;
 	position: relative;
+	border-radius: 50%;
 	z-index: 2;
 }
 
@@ -215,8 +217,8 @@ audio.music{
 
 div.nerv{
 	position: relative;
-	bottom: 535px;
-	padding-left: 300px;
+	bottom: 490px;
+	padding-left: 595px;
 	padding-right:10px;
 	margin:5px;
 	z-index: 2;
