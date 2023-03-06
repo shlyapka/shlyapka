@@ -15,6 +15,7 @@ function updateUI(){
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/greenbg.png)")
+		document.body.style.setProperty("--hover", "#35823E")
 	}
 	else if (Theme == "blue") {
 		document.body.style.setProperty("--accent", "#2F386F")
@@ -22,6 +23,7 @@ function updateUI(){
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/bluebg.jpg)")
+		document.body.style.setProperty("--hover", "#2F386F")
 	}
 	else if (Theme == "anime") {
 		document.body.style.setProperty("--accent", "#FFEB6A")
@@ -29,6 +31,7 @@ function updateUI(){
 		document.body.style.setProperty("--anim", "none")
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/yellowbg.jpg)")
+		document.body.style.setProperty("--hover", "#FFEB6A")
 	}
 }
 
