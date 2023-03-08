@@ -2,8 +2,8 @@ let green = document.querySelector('.Green')
 let blue = document.querySelector('.Blue')
 let anime = document.querySelector('.Anime')
 let purple = document.querySelector('.Purple')
+let game = document.querySelector('.game_settings')
 
-window.myVar = "videos/background.mp4";
 
 const Theme = localStorage.getItem('currentTheme');
 updateUI();
@@ -16,6 +16,7 @@ function updateUI(){
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/greenbg.png)")
 		document.body.style.setProperty("--hover", "#35823E")
+		document.body.style.setProperty("--game", "none")
 	}
 	else if (Theme == "blue") {
 		document.body.style.setProperty("--accent", "#2F386F")
@@ -24,6 +25,7 @@ function updateUI(){
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/bluebg.jpg)")
 		document.body.style.setProperty("--hover", "#2F386F")
+		document.body.style.setProperty("--game", "none")
 	}
 	else if (Theme == "anime") {
 		document.body.style.setProperty("--accent", "#FFEB6A")
@@ -32,6 +34,7 @@ function updateUI(){
 		document.body.style.setProperty("--timebg", "white")
 		document.body.style.setProperty("--bg", "url(images/yellowbg.jpg)")
 		document.body.style.setProperty("--hover", "#FFEB6A")
+		document.body.style.setProperty("--game", "none")
 	}
 }
 

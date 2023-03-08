@@ -5,6 +5,7 @@
 	--timebg: #1b1b1b; 
 	--bg: url(images/bg.jpg);
 	--hover: purple;
+	--game: block;
 }
 
 body { 
@@ -36,6 +37,11 @@ body {
 	width: 25px;
 }
 
+.pseudo-button img:hover{
+	border-radius: 5px;
+	background: var(--accent)
+}
+
 .menu a{
 	text-decoration: none;
 }
@@ -63,10 +69,11 @@ body {
 	display: none;
 	position: absolute;
 	bottom: -10px;
-    right: 10px;
+    right: 12px;
 	color: #333333;
 	text-decoration: none;
 	width: 70px;
+	transform: translate(0, 15%)
 }
 
 .sub-menu a{
@@ -268,6 +275,16 @@ button.sideright_op{
 
 div.right_links{
 	padding-top: 50;
+}
+
+.game{
+	position: fixed;
+	width: 288px;
+	height: 512px;
+	border: 3px solid silver;
+	margin: auto;
+	transform: translate(294%, -81%);
+	display: var(--game);
 }
 
 .sidetop {
