@@ -281,9 +281,9 @@ div.right_links{
 	position: fixed;
 	width: 288px;
 	height: 512px;
-	border: 3px solid silver;
+	border: 4px solid #DA70D6;
 	margin: auto;
-	transform: translate(294%, -81%);
+	transform: translate(293%, -80%);
 	display: var(--game);
 }
 
@@ -294,10 +294,9 @@ div.right_links{
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #383838;
+    background: transparent;
     overflow-x: hidden;
     padding-top: 10px;
-	outline: 4px solid var(--accent);
 	display: grid;
 }
 
