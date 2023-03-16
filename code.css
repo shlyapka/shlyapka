@@ -253,10 +253,10 @@ div.nerv{
     z-index: 1;
     top: 0;
     right: 0;
-    background-color: #383838;
     overflow-x: hidden;
     padding-top: 10px;
 	outline: 4px solid var(--accent);
+	background-color: #383838;
 }
 
 button.sideright_op{
@@ -399,4 +399,14 @@ div.wrapper{
 	100%{
 		filter: hue-rotate(360deg);
 	}
+}
+
+.weather{
+	position: fixed;
+	bottom: 0;
+	right: 209px;
+}
+
+.weather img{
+	border-radius: 10px;
 }
