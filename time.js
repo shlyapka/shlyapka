@@ -3,6 +3,7 @@ setInterval(() => {
 	let date = new Date();
 	let hours = date.getHours();
 	let minutes = date.getMinutes();
+	let seconds = date.getSecons();
 	let day_night = "AM";
 	if (hours > 12) {
 		day_night = "PM"
@@ -14,5 +15,7 @@ setInterval(() => {
 	if(hours < 10) {
 		hours = "0" + hours;
 	}
-	time.textContent = hours + ":" + minutes + " " + day_night
+	if(seconds < 10) {
+		seconds = "0" + seconds;
+	time.textContent = hours + ":" + minutes + ":" + seconds + " " + day_night
 })
